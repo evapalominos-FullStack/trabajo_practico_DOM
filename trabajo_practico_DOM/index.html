@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico del DOM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container flex mt-4">
+        <h6>Ingresa una Palabra</h6>
+        <input type="text" id="input_palabra">
+        <h6>Ingresa la Cantidad de Veces a Repetir</h6>
+        <input type="text" id="input_cantidad">
+        <h5></h5>
+        <button class="btn btn-primary" onclick="repetir_palabra()">Repetir</button>
+        <p id="mensaje1"></p>
+    </div>
+    <br>
+    <br>
+    <div class="container mt-5">
+        <h5>Ejercicio 2 Elija un color</h5>
+        <button class="btn btn-primary" onclick="cambiar_color()">Clic para cambiar de color el texto</button>
+        <p class="rojo">Este es un texto que cambia de color
+            Este es otro texto que cambia de color</p>
+
+    </div>
+    <br>
+    <br>
+    <div class="container mt-5">
+        <h5>Calculadora Básica</h5>
+        <input type="number" id="num1" placeholder="Ingresa el primer número">
+        <input type="number" id="num2" placeholder="Ingresa el segundo número"> <br><br>
+        <button class="btn btn-primary" onclick="calcularOperaciones()">Calcular</button>
+        <div id="resultados">
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Inversor de Palabras</h1>
+        <label for="palabraInput">Ingresa una palabra:</label>
+        <input type="text" id="palabraInput">
+        <button class="btn btn-primary" onclick="invertirYMostrar()">Invertir</button>
+        <p>Palabra Invertida: <span id="resultado"></span></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <script src="./asset/app.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous" />
+</body>
+
+</html>
