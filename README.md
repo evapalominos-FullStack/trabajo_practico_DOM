@@ -1,3 +1,3 @@
 HTML Y JAVASCRIPT 
 métodos usados: document.getElementById, document.getElementsByClassName, Document.getElementsByTagName
-Se insertan respuestas en el DOM mediante innerTect e innerHtml
+Se insertan respuestas en el DOM mediante innerText e innerHtml
